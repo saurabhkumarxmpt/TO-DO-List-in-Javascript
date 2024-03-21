@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata section -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Preconnect for faster loading of fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Link to import custom font Truculenta -->
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>TO-DO List</title>
+</head>
+<body>
+    <h2 class="heading">TO-DO List</h2>
+    <!-- Input field for entering tasks -->
+    <input type="text" id="input" placeholder="Enter Tasks...">
+    <!-- Button to add tasks with an event listener calling myfun() -->
+    <button onclick="myfun()" class="btn" id="btn">add</button>
+    <p id="delete">*click on the task to delete the task</p>
+    <!-- Unordered list to display tasks -->
+    <ul id="result">
+    </ul>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

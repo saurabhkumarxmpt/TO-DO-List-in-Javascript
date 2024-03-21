@@ -1,0 +1,86 @@
+/* Default styles */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: #090cbe;
+}
+
+#input {
+    height: 25px;
+    width: 30%; /* Changed from fixed width to percentage */
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid rgba(110, 151, 226, 0.801);
+    font-family: Arial;
+    padding-left: 12px;
+    font-size: 20px;
+    margin: 10px auto; /* Center the input */
+}
+
+.btn {
+    height: 33px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#delete {
+    color: red;
+}
+
+#result {
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgba(155, 214, 248, 0.568);
+    width: 40%; /* Changed width percentage */
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin: 0 auto; /* Center the result */
+    padding: 10px;
+}
+
+#result > li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+    width: 96%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 30px;
+    }
+    
+    #input {
+        width: 80%;
+    }
+
+    #result {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .heading {
+        font-size: 20px;
+    }
+}
